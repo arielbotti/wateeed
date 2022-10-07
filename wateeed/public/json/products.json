@@ -1,0 +1,105 @@
+[
+    {
+        "id": 1,
+        "nombre": "HV Valve",
+        "marca": "Rain Bird",
+        "modelo": "HV/HVF Series",
+        "category_id":1,
+        "precio": 1256,
+        "stock": 30, 
+        "img": "hv.jpg"
+        
+    },
+    {
+        "id": 2,
+        "nombre": "Toberas de arco",
+        "marca": "Rain Bird",
+        "modelo": "Mi-9",
+        "category_id":2,
+        "precio": 90,
+        "stock": 20,
+        "img":"Falcon6504.jpg"
+        
+    },
+    {
+        "id": 3,
+        "nombre": "Controlador de dos cables ESP-LXIVM",
+        "marca": "Rain Bird",
+        "modelo": "50D1U",
+        "category_id":3,
+        "precio": 96,
+        "stock": 15,
+        "img":"lx-ivm_front-109_1.png"
+    },
+    {
+        "id": 4,
+        "nombre": "Rotores",
+        "marca": "Rain Bird",
+        "modelo": "Serie 3500",
+        "category_id":1,
+        "precio": 54,
+        "stock": 30,
+        "img":"5000-5000plus-hero.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "300-BPES",
+        "marca": "Rain Bird",
+        "modelo": "Válvulas de latón",
+        "category_id":1,
+        "precio": 32,
+        "stock": 7,
+        "img":"bpes_with_prs-dial_-_hero.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Serie EFB-CP",
+        "marca": "Rain Bird",
+        "modelo": "Válvulas de latón",
+        "category_id":1,
+        "precio": 55,
+        "stock": 20,
+        "img":"efb-cp-ivm-550_1.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "tobera",
+        "marca": "Rain Bird",
+        "modelo": "Roja",
+        "category_id":3,
+        "precio": 987,
+        "stock": 10,
+        "img":"XCZ-075-PRF.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "Temporizador",
+        "marca": "Rain Bird ",
+        "modelo": "32 Gb",
+        "category_id":2,
+        "precio": 785,
+        "stock": 30,
+        "img":"NewProductsIcon.png"
+    },
+    {
+        "id": 9,
+        "nombre": "Cuencas recolectoras",
+        "marca": "Rain Bird",
+        "modelo": "SPK200",
+        "category_id":3,
+        "precio": 156,
+        "stock": 21,
+        "img":"db9kitb.jpg"
+    },
+    {
+        "id": 10,
+        "nombre": "Válvulas de la serie DV/DVF",
+        "marca": "Rain Bird",
+        "modelo": "PGA-IVM",
+        "category_id":2,
+        "precio": 423,
+        "stock": 25,
+        "img":"icon-sensors-meters_0.png"
+    }
+    
+]

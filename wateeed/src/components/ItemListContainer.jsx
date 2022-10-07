@@ -1,18 +1,23 @@
 import React from 'react';
 
-const ItemListContainer = () => {
+const ItemListContainer = ({product}) => {
     return (
         
-        
-        <div className="card border-info mb-3" style={{maxWidth: '20rem'}}>
-            <div className="card-header">Carrito</div>
+        <>
+            <h3 className="card-header">Articulo: {product.nombre}</h3>
             <div className="card-body">
-                <h4 className="card-title">Articulos</h4>
-                <p className="card-text">Valvula N/A -- 1 Unidad</p>
+                <h5 className="card-title">{product.marca}</h5>
+                <h6 className="card-subtitle text-muted">{product.modelo}</h6>
             </div>
-        </div>
-        
+            <img src={"../img/" + product.img} className="" />
+            <ul className="list-group list-group-flush">
+                <li className="list-group-item">Precio: ${product.precio}</li>
+                <li className="list-group-item">Stock: {product.stock}</li>
+                
+            </ul>
+        </>
     );
 }
 
 export default ItemListContainer;
+

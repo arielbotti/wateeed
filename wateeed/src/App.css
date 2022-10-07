@@ -38,3 +38,8 @@
     transform: rotate(360deg);
   }
 }
+
+.cardProduct {
+  width: 18rem;
+  margin: 4px;
+}

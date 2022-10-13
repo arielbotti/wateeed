@@ -1,6 +1,6 @@
 // usar LITERA Bootswatch
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
-import React, {useState} from 'react';
+import React from 'react';
 import 'bootswatch/dist/litera/bootstrap.min.css'
 import './App.css';
 
@@ -32,7 +32,8 @@ const App = () => {
               <Route element={<About/>} path="/about" />
               <Route element={<Contact/>} path="/contact" />
               <Route element={<Cart/>} path="/cart" />
-              <Route element={<ItemListContainer/>} path="/category" />
+              {/* <Route element={<ItemListContainer/>} path="/category" /> */}
+              <Route element={<h1>Error 404</h1>} path='*' />
 
             </Routes>
           <Footer/>
